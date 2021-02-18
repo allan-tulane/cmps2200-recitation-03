@@ -8,7 +8,7 @@ In this recitation, we will investigate recurrences for work and span of algorit
 ## Tree method (2 pts)
 Solve the following recurrence using the tree method. 
 
-a) $W(n)$ = 3T(n/4) + $n^2$
+a) $W(n)$ = 3W(n/4) + $n^2$
 .  
 .  
 .  
@@ -20,7 +20,7 @@ a) $W(n)$ = 3T(n/4) + $n^2$
 .  
 
 
-b) $W(n) = 2T(n/2)+ n/ \log n$
+b) $W(n) = 2W(n/2)+ n/ \log n$
 .  
 .  
 .  
