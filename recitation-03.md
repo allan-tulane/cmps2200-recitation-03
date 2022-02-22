@@ -3,71 +3,9 @@
 **Name (Team Member 1):**_________________________  
 **Name (Team Member 2):**_________________________
 
-In this recitation, we will investigate recurrences for work and span of algorithms.
+This recitation includes part of assignment 02. 
 
-## Tree method (2 pts)
-Solve the following recurrence using the tree method. 
+Now that you have some practice solving recurrences, let's work on implementing some algorithms. In lecture, we discussed a divide and conquer algorithm for integer multiplication. This algorithm takes as input two $n$-bit strings $x = \langle x_L, x_R\rangle$ and $y=\langle y_L, y_R\rangle$ and computes the product $xy$ by using the fact that $xy = 2^{n/2}x_Ly_L + 2^{n/2}(x_Ly_R+x_Ry_L) + x_Ry_R.$ Use the `main.py` to implement one algorithm for integer multiplication: a divide and conquer algorithm that runs in quadratic time. Please refer to Eqs (15) and (16) https://nbviewer.org/github/allan-tulane/cmps2200-slides/blob/main/module-02-recurrences/recurrences.ipynb
 
-a) $W(n)$ = 3W(n/4) + $n^2$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-
-b) $W(n) = 2W(n/2)+ n/ \log n$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-
-## Brick method (2pts)
-Solve the following recurrences using the brick method. First argue
-whether they are root-dominated, leaf-dominated, or balanced. Then,
-state the resulting asymptotic bound for $W(n)$.
-
-a) $W(n) = 2 W(0.49 n) + 1.01 n$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-b) $W(n) = W(n/2) + W(n/4) + 0.999n$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-c) $W(n) = \sqrt{n}W(\sqrt{n}) + \sqrt{n}$
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
 
 
