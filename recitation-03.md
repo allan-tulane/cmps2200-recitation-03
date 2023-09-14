@@ -49,4 +49,5 @@ The implementation of `_quadratic_multiply` will do the following:
 5. Now you can apply the formula above directly. Anywhere there is a multiply, call `_quadratic_multiply`
 6. Use `bit_shift` to do the $2^n$ and $2^{n/2}$ multiplications.
 7. Finally, you have to do three sums to get the final answer. For this assignment, you can just use the `decimal_val`s of each number to do this, though keep in mind that binary addition is a $O(n)$ operation, assuming $n$ bits per term.
-8. Please input more test cases in `test_main.py`
+8. Please implement the comparison in `test_multiply.py `
+9. Please input more test cases in `test_main.py`
