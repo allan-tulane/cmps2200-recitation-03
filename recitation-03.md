@@ -9,8 +9,7 @@ Now that you have some practice solving recurrences, let's work on implementing 
 The computation we must implement is:
 
 $
-x\cdot y &=& (2^{n/2} x_L + x_R)(2^{n/2} y_L + y_R) \\
- &=& 2^n (x_L \cdot y_L) + 2^{n/2} (x_L \cdot y_R + x_R \cdot y_L) + (x_R \cdot y_R) \\
+x\cdot y= (2^{n/2} x_L + x_R)(2^{n/2} y_L + y_R)  =2^n (x_L \cdot y_L) + 2^{n/2} (x_L \cdot y_R + x_R \cdot y_L) + (x_R \cdot y_R) 
 $
 
     
