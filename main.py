@@ -56,9 +56,10 @@ def _quadratic_multiply(x, y):
 
     
     
-def time_multiply(x, y, f):
+def test_quadratic_multiply(x, y, f):
     start = time.time()
     # multiply two numbers x, y using function f
+    
     return (time.time() - start)*1000
 
 
