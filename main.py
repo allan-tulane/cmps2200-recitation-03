@@ -45,6 +45,10 @@ def pad(x,y):
     return x,y
 
 def quadratic_multiply(x, y):
+    # this just converts the result from a BinaryNumber to a regular int
+    return _quadratic_multiply(x,y).decimal_val
+
+def _quadratic_multiply(x, y):
     ### TODO
     pass
     ###
